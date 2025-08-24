@@ -11,7 +11,7 @@ pipeline{
         stage ("A"){
             steps{
             echo "Triggered by: ${params.Team}"
-                echo "Nice, ${params.Team}"
+                echo "Nice+1, ${params.Team}"
             }
         }
         stage("B"){
