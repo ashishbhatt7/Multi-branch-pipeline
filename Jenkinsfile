@@ -10,7 +10,7 @@ pipeline{
     stages {
         stage ("A"){
             steps{
-            echo "Triggered by: ${params.Team}"
+            echo "why Triggered by: ${params.Team}"
             }
         }
         stage("B"){
